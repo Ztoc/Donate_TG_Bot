@@ -6,7 +6,7 @@ import Menu from "@/components/Menu";
 const Confirm = () => {
   return (
     <>
-      <div className="mt-[120px] pt-[19px] pb-[30px] px-[28px] bg-white rounded-[12px] flex flex-col gap-y-9 items-center">
+      <div className="mt-[30px] pt-[19px] pb-[30px] px-[28px] bg-white rounded-[12px] flex flex-col gap-y-9 items-center">
         <div className="flex gap-x-2 items-center">
           <Image src={"/assets/punk.png"} width={30} height={30} alt="Punk" />
           <div className={`font-semibold text-[21px]/[15px] text-donate-menu-active`}>Punk</div>
