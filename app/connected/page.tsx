@@ -91,13 +91,12 @@ export default function Connected() {
           </div>
           <div className="collectable-content flex justify-between mt-4 gap-x-2">
             <div className="collect-item flex flex-col pb-2 rounded-[19.6px] gap-y-2 items-center bg-donate-card-bg">
-              <Image
-                src={"/assets/collect.png"}
-                width={139.85}
-                height={139.85}
-                alt="collect"
-                className="rounded-[19.6px]"
-              />
+              <div className="w-[140px] h-[140px] flex flex-col justify-center items-center bg-radial">
+                <div className="bg-white py-2 px-3 flex gap-x-1 rounded-lg items-center">
+                  <div className="font-semibold text-sm text-donate-text-dark">10,000</div>
+                  <Image src={"/assets/ton.jpg"} width={12} height={12} alt="collect" className="-mt-1" />
+                </div>
+              </div>
               <div>
                 <div className={`${montserrat.className} font-semibold text-donate-menu-active text-[9px]/[8px]`}>
                   10,000 NOT VOUCHER
@@ -110,22 +109,19 @@ export default function Connected() {
               </div>
             </div>
             <div className="collect-item flex flex-col pb-2 rounded-[19.6px] gap-y-2 items-center bg-donate-card-bg">
-              <Image
-                src={"/assets/collect.png"}
-                width={139.85}
-                height={139.85}
-                alt="collect"
-                className="rounded-[19.6px]"
-              />
-              <div>
-                <div className={`${montserrat.className} font-semibold text-donate-menu-active text-[9px]/[8px]`}>
-                  10,000 NOT VOUCHER
+              <div className="w-[140px] h-[140px] flex flex-col justify-center items-center bg-radial">
+                <div className="bg-white py-2 px-3 flex gap-x-1 rounded-lg items-center">
+                  <div className="font-semibold text-sm text-donate-text-dark">10,000</div>
+                  <Image src={"/assets/ton.jpg"} width={12} height={12} alt="collect" className="-mt-1" />
                 </div>
-                <div
-                  className={`${montserrat.className} font-normal text-donate-menu-active/40 text-[9px]/[8px] text-center mt-[4px]`}
-                >
-                  NFT
-                </div>
+              </div>
+              <div className={`${montserrat.className} font-semibold text-donate-menu-active text-[9px]/[8px]`}>
+                10,000 NOT VOUCHER
+              </div>
+              <div
+                className={`${montserrat.className} font-normal text-donate-menu-active/40 text-[9px]/[8px] text-center mt-[4px]`}
+              >
+                NFT
               </div>
             </div>
           </div>
