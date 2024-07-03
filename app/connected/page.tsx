@@ -1,9 +1,10 @@
 import Image from "next/image";
-
 import { Montserrat } from "next/font/google";
+
 import Menu from "@/components/Menu";
 
 const montserrat = Montserrat({ subsets: ["latin"], weight: ["400", "600", "700"] });
+
 export default function Connected() {
   return (
     <>

@@ -1,10 +1,14 @@
-import Image from "next/image";
+"use client";
 
+import Image from "next/image";
+import { useRouter } from "next/navigation";
 import { Montserrat } from "next/font/google";
+
 import Menu from "@/components/Menu";
 
 const montserrat = Montserrat({ subsets: ["latin"], weight: ["400", "700"] });
 export default function Home() {
+  const router = useRouter();
   return (
     <>
       <div className="user-wrapper w-full flex justify-between items-center">
@@ -16,7 +20,10 @@ export default function Home() {
           </div>
         </div>
         <div>
-          <button className="w-[150px] py-4 text-center bg-donate-blue font-semibold text-[13px]/[15px] text-white rounded-[14px]">
+          <button
+            className="w-[150px] py-4 text-center bg-donate-blue font-semibold text-[13px]/[15px] text-white rounded-[14px]"
+            onClick={(e) => router.push("/connected")}
+          >
             Connect Wallet
           </button>
         </div>

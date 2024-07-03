@@ -10,23 +10,23 @@ const History = () => {
         <path
           d="M13.9314 25.0685C17.0068 28.1438 21.993 28.1438 25.0683 25.0685C28.1437 21.9931 28.1437 17.0069 25.0683 13.9315C21.993 10.8562 17.0068 10.8562 13.9314 13.9315C12.3927 15.4702 11.6239 17.4872 11.6249 19.5039L11.6248 21.25"
           stroke="#C3C3C3"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M9.87482 19.5L11.6248 21.25L13.3748 19.5"
           stroke="#C3C3C3"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M18.6248 16V20.375H22.9998"
           stroke="#C3C3C3"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
       </g>
       <path

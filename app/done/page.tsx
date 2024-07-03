@@ -1,8 +1,9 @@
 "use client";
 
-import ClipBoard from "@/components/icons/ClipBoard";
-import Image from "next/image";
 import React, { useState } from "react";
+import Image from "next/image";
+
+import ClipBoard from "@/components/icons/ClipBoard";
 
 const Done = () => {
   const [show, setShow] = useState(false);
