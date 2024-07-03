@@ -158,7 +158,7 @@ export default function Connected() {
           </div>
         </div>
       </div>
-      <div className="absolute bottom-0 left-0 right-0">
+      <div className="fixed bottom-0 left-0 right-0">
         <Menu />
       </div>
     </>
